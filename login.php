@@ -1,8 +1,8 @@
 <?php
     session_start();
 
-    include 'C:/Users/21295/Desktop/IS/function/connect.php';
-    $sql = sprintf("SELECT * FROM `user` WHERE `login` = '%s' AND `password` = '%s'",
+    include 'connect.php';
+    $sql = sprintf("SELECT * FROM `klient` WHERE `login` = '%s' AND `password` = '%s'",
                     $_POST['login'], $_POST['password']);
 
     $result = $connect->query($sql);

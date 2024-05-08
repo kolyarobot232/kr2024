@@ -21,7 +21,7 @@
 <section class="page">
     <div class="registr">
         <h1 class="text233">Регистрация</h1>
-            <form action="/admin/controllers/registration.php" method="post" 
+            <form action="registration1234.php" method="post" 
             class="m-auto needs-validation" novalidate>
             <div class="mb-3">
                 <label for="surname" class="form-label fs-5">Фамилия<br></label>
@@ -34,6 +34,14 @@
             <div class="mb-3">
                 <label for="patronymic" class="form-label fs-5">Отчество<br></label>
                 <input type="text" class="vvod" id="patronymic" name="patronymic" required>
+            </div>
+            <div class="mb-3">
+                <label for="date" class="">Дата рождения<br></label>
+                <input type="date" class="vvod" id="date" name="date" required>
+            </div>
+            <div class="mb-3">
+                <label for="pol" class="">Пол<br></label>
+                <input type="text" class="vvod" id="pol" name="pol" required>
             </div>
             <div class="mb-3">
                 <label for="login" class="form-label fs-5">Логин<br></label>

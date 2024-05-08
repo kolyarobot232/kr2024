@@ -32,7 +32,7 @@
     </div>
 </section>
 <div class="avtoriz">
-    <form action="/admin/controllers/login.php" method="post" class="m-auto">
+    <form action="login.php" method="post" class="m-auto">
         <h1 class="text">Вход</h1>
         <div class="">
             <label for="login" class="text23">Ваш логин:<br></label>

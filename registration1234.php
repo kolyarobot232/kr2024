@@ -1,6 +1,6 @@
 <?php
 session_start();
-include 'C:/Users/21295/Desktop/КР/connect.php';
+include 'connect.php';
 //проверка уникальности логина
 $data = $connect->query(sprintf("SELECT `login` FROM `klient` WHERE `login` = '%s'",
 $_POST['login']));

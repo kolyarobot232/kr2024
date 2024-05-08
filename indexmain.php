@@ -94,6 +94,14 @@
         </div>
     </footer>
     <!--End Footer-->
+    <style>
+    .card{
+        box-shadow: 0px 2px 7px 0px #3cff3c;
+    }
+    .card:hover{
+        box-shadow: 0px 10px 30px 0px #3cff3c;
+    }
+    </style>
 
 
 </body>
